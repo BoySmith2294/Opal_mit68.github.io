@@ -90,7 +90,6 @@ img {
   height: auto;
 }
 
-/*=============== REUSABLE CSS CLASSES ===============*/
 .container {
   max-width: 1120px;
   margin-inline: 1.5rem;
@@ -119,8 +118,7 @@ img {
   overflow: hidden;
 }
 
-/*=============== BLOB ===============*/
-/* Blob animate */
+
 .blob-animate{
   width: 100px;
   height: 100px;
@@ -141,7 +139,7 @@ img {
   }
 }
 
-/* Blob */
+
 
 .blob{
   width: 250px;
@@ -438,7 +436,6 @@ color: var(--first-color);
   transition: opacity .4s;
 }
 
-/*=============== TIMELINE ===============*/
         .work {
           position: relative;
           overflow: hidden;
@@ -566,7 +563,6 @@ color: var(--first-color);
           border-bottom: 10px solid transparent;
         }
 
-        /*=============== SKILLS MIXED DESIGN ===============*/
 .skills {
     position: relative;
     overflow: hidden;
@@ -663,8 +659,8 @@ color: var(--first-color);
     stroke: var(--first-color);
     stroke-width: 8;
     stroke-linecap: round;
-    stroke-dasharray: 282.6; /* 2 * π * 45 = 282.6 */
-    stroke-dashoffset: 282.6; /* เริ่มต้นให้ซ่อนทั้งหมด */
+    stroke-dasharray: 282.6;
+    stroke-dashoffset: 282.6; 
     transition: stroke-dashoffset 1.5s ease-in-out;
 }
 
@@ -711,8 +707,6 @@ color: var(--first-color);
     transition: width 1.5s ease-in-out;
 }
 
-
-        /* Responsive Timeline */
         @media screen and (max-width: 768px) {
           .timeline::before {
             left: 30px;
@@ -736,7 +730,6 @@ color: var(--first-color);
           }
         }
 
-/* For small devices */
 @media screen and (max-width: 320px) {
   .container{
     margin-inline: 1rem;
@@ -835,7 +828,6 @@ color: var(--first-color);
   
 }
 
-/* For medium devices */
 @media screen and (min-width: 540px) {
   .home__container{
     width: 460px;
@@ -936,7 +928,6 @@ color: var(--first-color);
   }
 }
 
-/* For large devices */
 @media screen and (min-width: 1150px) {
   .container{
     margin-inline: auto;
@@ -1070,10 +1061,3 @@ color: var(--first-color);
 
 
 }
-
-/* For 2K resolutions (2048 x 1152, 2048 x 1536) */
-
-
-/* Custom cursor is hidden for mobile devices */
-
-
